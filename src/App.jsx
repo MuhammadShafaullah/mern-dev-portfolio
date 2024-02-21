@@ -8,6 +8,7 @@ import Skills from './components/skills/Skills'
 import Portfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import Blog from './components/Blog/Blog'
 
 
 
@@ -20,7 +21,8 @@ function App() {
      <Navbar/>
      <Hero/>
      <About/>
-     <Services/>
+     {/* <Services/> */}
+     <Blog/>
      <Skills/>
      <Portfolio/>
      <Contact/>

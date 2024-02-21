@@ -12,7 +12,7 @@ function Portfolio() {
                 className="text-white fw-bold "
                 style={{ borderBottom: "2px solid #22C55E", display: "inline-block" }}
               >
-                PortFolio
+                Portfolio
               </h2>
             </div>
           </div>
