@@ -46,7 +46,7 @@ function Hero() {
                     style={{ borderRadius: 50, cursor: "pointer" }}
                   >
                     <div className="img1 d-flex align-items-center gap-1">
-                      <a href="#">
+                      <a href="https://github.com/MuhammadShafaullah" target="_blank">
                         <img
                           src={github}
                           alt=""
@@ -62,7 +62,7 @@ function Hero() {
                     style={{ borderRadius: 50, cursor: "pointer" }}
                   >
                     <div className="img1 d-flex align-items-center gap-1">
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/muhammad-shafaullah-8584251b0/" target="_blank">
                         <img
                           src={linkedin}
                           alt=""
@@ -78,7 +78,7 @@ function Hero() {
                     style={{ borderRadius: 50, cursor: "pointer" }}
                   >
                     <div className="img1 d-flex align-items-center gap-1">
-                      <a href="#">
+                      <a href="https://www.facebook.com/muhammad.shafaullah.9" target="_blank">
                         <img
                           src={fb}
                           alt=""
@@ -110,7 +110,7 @@ function Hero() {
                     style={{ borderRadius: 50, cursor: "pointer" }}
                   >
                     <div className="img1 d-flex align-items-center gap-1">
-                      <a href="#">
+                      <a href="https://www.instagram.com/malikshafaullahofficial/" target="_blank">
                         <img
                           src={insta}
                           alt=""
