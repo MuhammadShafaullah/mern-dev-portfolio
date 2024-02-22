@@ -1,15 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar/Nav'
-import Hero from './components/HeroSec'
-import About from './components/About/About'
-import Services from './components/services/Services'
-import Skills from './components/skills/Skills'
-import Portfolio from './components/Portfolio/Portfolio'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
-import Blog from './components/Blog/Blog'
-
+import Home from './pages/Home'
+import BlogDetails from './pages/BlogDetails'
+import { Routes, Route, Link } from 'react-router-dom'
 
 
 function App() {
@@ -18,15 +11,10 @@ function App() {
   return (
     <>
 
-     <Navbar/>
-     <Hero/>
-     <About/>
-     {/* <Services/> */}
-     <Blog/>
-     <Skills/>
-     <Portfolio/>
-     <Contact/>
-     <Footer/>
+     <Routes>
+      <Route path='/' element={<Home/>} />
+      <Route path='/BlogDetails' element={<BlogDetails/>}/>
+     </Routes>
   
     </>
   )
