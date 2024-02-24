@@ -1,16 +1,18 @@
 import React from 'react'
+import Navbar from '../components/Navbar/Nav'
+import pic from '../img/post-1.jpg'
 
 function BlogDetails() {
   return (
     <>
-
+      <Navbar/>
       <section className="blog-wrapper sect-pt4" id="blog">
         <div className="container">
           <div className="row">
             <div className="col-md-8">
               <div className="post-box">
                 <div className="post-thumb">
-                  <img src="assets/img/post-1.jpg" className="img-fluid" alt="" />
+                  <img src={pic} className="img-fluid" alt="" />
                 </div>
                 <div className="post-meta">
                   <h1 className="article-title">
